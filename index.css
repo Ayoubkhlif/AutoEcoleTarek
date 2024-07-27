@@ -1,0 +1,22 @@
+:root {
+    --win: 404px;
+    --win0: 404px;
+    --w: 10px;
+    --h: 10px; 
+}
+
+#i {
+    position: absolute;
+    top: calc(var(--win)/2 - var(--h)/2 + 10px);
+    left: calc(var(--win0)/2 - var(--w)/2 + 10px);
+    max-height: var(--win);
+    max-width: var(--win0);
+    border-radius: 20px;
+}
+body {
+    background-image: linear-gradient(to right, #434343 0%, black 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}

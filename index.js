@@ -1,0 +1,6 @@
+let v = document.querySelector(':root')
+let c = document.getElementById('i')
+v.style.setProperty('--win', String(document.documentElement.clientHeight - 20) + 'px') 
+v.style.setProperty('--win0', String(document.documentElement.clientWidth - 20) + 'px') 
+v.style.setProperty('--w', String(c.offsetWidth) + 'px') 
+v.style.setProperty('--h', String(c.offsetHeight) + 'px') 
